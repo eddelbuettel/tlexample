@@ -1,0 +1,6 @@
+
+## C++ compilation standard
+CXX_STD=CXX20
+
+## We need the spdlite headers
+#PKG_CPPFLAGS = -I../inst/include
