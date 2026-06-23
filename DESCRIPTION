@@ -1,10 +1,12 @@
 Package: tlexample
 Type: Package
-Title: Concise Summary of What the Package Does
+Title: Simple Example of Using 'tl' for Logging
 Version: 0.0.1
 Date: 2026-05-25
-Authors@R: person("Dirk", "Eddelbuettel", role = c("aut", "cre"), email = "edd@debian.org")
-Description: More about what it does (maybe more than one line).
+Authors@R: person("Dirk", "Eddelbuettel", role = c("aut", "cre"), email = "edd@debian.org",
+                  comment = c(ORCID = "0000-0001-6419-907X"))
+Description: An illustraton of how the 'tl' package permits consistent logging from both R and
+ C++ in a manner that is 'tiny, fast, capable'.
 URL: https://github.com/eddelbuettel/tlexample
 BugReports: https://github.com/eddelbuettel/tlexample/issues
 License: GPL (>= 2)
