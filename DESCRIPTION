@@ -2,7 +2,7 @@ Package: tlexample
 Type: Package
 Title: Simple Example of Using 'tl' for Logging
 Version: 0.0.1
-Date: 2026-05-25
+Date: 2026-06-24
 Authors@R: person("Dirk", "Eddelbuettel", role = c("aut", "cre"), email = "edd@debian.org",
                   comment = c(ORCID = "0000-0001-6419-907X"))
 Description: An illustraton of how the 'tl' package permits consistent logging from both R and
@@ -11,5 +11,5 @@ URL: https://github.com/eddelbuettel/tlexample
 BugReports: https://github.com/eddelbuettel/tlexample/issues
 License: GPL (>= 2)
 LinkingTo: Rcpp, rspdlite, tl
-Imports: Rcpp
+Imports: Rcpp, tl
 RoxygenNote: 6.0.1
